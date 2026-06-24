@@ -119,4 +119,77 @@ The analyses showed:
 3. Conserved amino acid residues
 4. Variable mutation regions
 5. Strong protein homology
+
 These findings indicate that most functional regions of HPV16 remain highly conserved.
+
+# Protein Physicochemical Analysis
+
+ProtParam was used to evaluate:
+i.   Molecular weight
+ii.  Theoretical pI
+iii. Instability index
+iv.  Aliphatic index
+v.   GRAVY score
+vi.  Amino acid composition
+
+This provided insight into protein stability and biochemical characteristics before structural modelling.
+
+# Homology Modelling
+
+Initially, homology modelling was performed for all eight HPV16 proteins. E1
+E2
+E4
+E5
+E6
+E7
+L1
+L2
+
+Model quality was evaluated using:
+1. Template identity
+2. Sequence coverage
+3. GMQE
+4. QSQE
+5. Structural quality
+
+Among all proteins, E2, E6, and L1 exhibited template identities and sequence coverage greater than 95%, indicating highly reliable structural models.
+
+**Why E6 was selected**
+
+Although E2, E6, and L1 all produced high-quality models:
+A. L1 is primarily a vaccine target because it is the major capsid protein with important antigenic determinants.
+B. E2 showed excellent structural quality; however, sufficient literature describing small-molecule inhibition was not available.
+C. E6 is a well-established oncogenic protein with several reported inhibitory compounds, making it the most suitable target for docking studies.
+
+Therefore, HPV16 E6 was selected for downstream molecular docking.
+
+# Ligand Selection
+
+Four compounds were selected through literature review.
+
+| Category  | Compound                         | Reported Role                                    |
+| --------- | -------------------------------- | ------------------------------------------------ |
+| Synthetic | Sulindac                         | Growth inhibition and apoptosis induction        |
+| Synthetic | Imiquimod                        | Immune modulation                                |
+| Natural   | Indole-3-Carbinol (I3C)          | Induces apoptosis in cervical cancer cells       |
+| Natural   | Nordihydroguaiaretic Acid (NDGA) | Suppresses E6 gene expression and stabilizes p53 |
+
+# ADMET Analysis
+
+ADMET prediction was performed before docking to evaluate pharmacokinetic and toxicity profiles.
+
+**Why ADMET is important**
+
+A compound with excellent docking affinity may still fail as a drug if it has poor absorption, unfavorable metabolism, or high toxicity. Therefore, ADMET screening helps prioritize compounds with a better balance between efficacy and safety.
+
+**Toxicity ranking**
+
+Sulindac
+       <
+Imiquimod
+        <
+NDGA
+        <
+Indole-3-Carbinol
+
+Highest toxicity → Lowest toxicity
