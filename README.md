@@ -125,6 +125,7 @@ These findings indicate that most functional regions of HPV16 remain highly cons
 # Protein Physicochemical Analysis
 
 ProtParam was used to evaluate:
+
 i.   Molecular weight
 ii.  Theoretical pI
 iii. Instability index
@@ -146,6 +147,7 @@ L1
 L2
 
 Model quality was evaluated using:
+
 1. Template identity
 2. Sequence coverage
 3. GMQE
@@ -157,6 +159,7 @@ Among all proteins, E2, E6, and L1 exhibited template identities and sequence co
 **Why E6 was selected**
 
 Although E2, E6, and L1 all produced high-quality models:
+
 A. L1 is primarily a vaccine target because it is the major capsid protein with important antigenic determinants.
 B. E2 showed excellent structural quality; however, sufficient literature describing small-molecule inhibition was not available.
 C. E6 is a well-established oncogenic protein with several reported inhibitory compounds, making it the most suitable target for docking studies.
@@ -192,4 +195,4 @@ NDGA
         <
 Indole-3-Carbinol
 
-Highest toxicity → Lowest toxicity
+Highest toxicity < Lowest toxicity
