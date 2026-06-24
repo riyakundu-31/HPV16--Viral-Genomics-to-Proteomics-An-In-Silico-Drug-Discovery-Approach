@@ -4,7 +4,7 @@
 
 # Project Overview
 
-This project presents a complete bioinformatics workflow for the computational analysis of the Human Papillomavirus type 16 (HPV16) genome and the identification of potential inhibitors targeting the HPV16 E6 oncoprotein.
+This project presents a complete bioinformatics workflow for the computational analysis of the Human Papillomavirus type 16 (HPV16) genome and the identification of potential inhibitors targeting the HPV16 viral oncoprotein.
 
 The study combines genome annotation, comparative sequence analysis, protein characterization, homology modelling, ADMET prediction, binding pocket identification, and molecular docking to identify promising compounds against the viral protein.
 
