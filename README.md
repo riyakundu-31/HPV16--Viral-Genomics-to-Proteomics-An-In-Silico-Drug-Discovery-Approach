@@ -101,14 +101,14 @@ The analysis included:
 6. Conserved region identification
 
 These analyses confirmed the organization of the major HPV proteins:
-a. E1
-b. E2
-c. E4
-d. E5
-e. E6
-f. E7
-g. L1
-h. L2
+1. E1
+2. E2
+3. E4
+4. E5
+5. E6
+6. E7
+7. L1
+8. L2
 
 # Comparative Sequence Analysis
 
@@ -137,14 +137,15 @@ This provided insight into protein stability and biochemical characteristics bef
 
 # Homology Modelling
 
-Initially, homology modelling was performed for all eight HPV16 proteins. E1
-E2
-E4
-E5
-E6
-E7
-L1
-L2
+Initially, homology modelling was performed for all eight HPV16 proteins. 
+1. E1
+2. E2
+3. E4
+4. E5
+5. E6
+6. E7
+7. L1
+8. L2
 
 Model quality was evaluated using:
 
