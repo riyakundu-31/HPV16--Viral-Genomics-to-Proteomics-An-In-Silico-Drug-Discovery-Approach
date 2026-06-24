@@ -69,24 +69,25 @@ The workflow also demonstrates how genome-scale analysis can guide target select
 
   # Bioinformatics Tools Used     
 
-| Step                | Tool / Server            | Purpose                          |
-| ------------------- | ------------------------ | -------------------------------- |
-| Genome Retrieval    | NCBI                     | HPV16 genome                     |
-| ORF Prediction      | ORF Finder               | Detect coding regions            |
-| Gene Prediction     | GeneMark                 | Predict viral genes              |
-| Genome Mapping      | PlasMapper               | Circular genome map              |
-| Genome Annotation   | Proksee                  | Genome visualization             |
-| Similarity Search   | BLASTn                   | Genome comparison                |
-| Protein Similarity  | BLASTp                   | Protein comparison               |
-| Sequence Alignment  | Clustal Omega            | Conserved region analysis        |
-| Protein Properties  | ProtParam                | Physicochemical characterization |
-| Homology Modelling  | SWISS-MODEL              | 3D protein modelling             |
-| Ligand Retrieval    | PubChem                  | Ligand structures                |
-| ADMET Prediction    | ADMET-AI                 | Drug-likeness and toxicity       |
-| Pocket Prediction   | CASTpFold 3.0            | Active site identification       |
-| Protein Preparation | ChimeraX                 | Remove HETATM and water          |
-| Docking             | SwissDock                | Protein-ligand docking           |
-| Visualization       | PyMOL / Discovery Studio | Interaction analysis             |
+| Step | Tool / Server | Purpose |
+|--------|---------------|----------|
+| Genome Retrieval | [NCBI Database](https://www.ncbi.nlm.nih.gov/) | HPV16 genome retrieval |
+| ORF Prediction | [NCBI ORF Finder](https://www.ncbi.nlm.nih.gov/orffinder/) | Detect coding regions |
+| Gene Prediction | [GeneMark](http://exon.gatech.edu/GeneMark/) | Predict viral genes |
+| Genome Mapping | PlasMapper | Circular genome map |
+| Genome Annotation | [Proksee](https://proksee.ca/) | Genome visualization and annotation |
+| HPV Reference Database | [PaVE Database](https://pave.niaid.nih.gov/) | Papillomavirus reference sequences |
+| Similarity Search | [NCBI BLASTn](https://blast.ncbi.nlm.nih.gov/Blast.cgi) | Genome comparison |
+| Protein Similarity | [NCBI BLASTp](https://blast.ncbi.nlm.nih.gov/Blast.cgi) | Protein comparison |
+| Sequence Alignment | [Clustal Omega](https://www.ebi.ac.uk/Tools/msa/clustalo/) | Conserved region analysis |
+| Protein Properties | [ProtParam](https://web.expasy.org/protparam/) | Physicochemical characterization |
+| Homology Modelling | [SWISS-MODEL](https://swissmodel.expasy.org/) | 3D protein modelling |
+| Ligand Retrieval | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | Ligand structures |
+| ADMET Prediction | [ADMET-AI](https://admet.ai.greenstonebio.com/) | Drug-likeness and toxicity |
+| Binding Pocket Prediction | [CASTpFold 3.0](https://cfold.bme.uic.edu/castpfold/compute) | Active site identification |
+| Protein Preparation | ChimeraX | Remove HETATM and water molecules |
+| Molecular Docking | [SwissDock](https://www.swissdock.ch/) | Protein-ligand docking |
+| Interaction Visualization | PyMOL / Discovery Studio | Binding interaction analysis |
 
 # Genome Analysis
 
