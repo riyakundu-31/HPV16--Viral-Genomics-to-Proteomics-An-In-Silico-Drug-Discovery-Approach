@@ -126,12 +126,12 @@ These findings indicate that most functional regions of HPV16 remain highly cons
 
 ProtParam was used to evaluate:
 
-i.   Molecular weight
-ii.  Theoretical pI
-iii. Instability index
-iv.  Aliphatic index
-v.   GRAVY score
-vi.  Amino acid composition
+1. Molecular weight
+2. Theoretical pI
+3. Instability index
+4. Aliphatic index
+5. GRAVY score
+6. Amino acid composition
 
 This provided insight into protein stability and biochemical characteristics before structural modelling.
 
@@ -160,9 +160,9 @@ Among all proteins, E2, E6, and L1 exhibited template identities and sequence co
 
 Although E2, E6, and L1 all produced high-quality models:
 
-A. L1 is primarily a vaccine target because it is the major capsid protein with important antigenic determinants.
-B. E2 showed excellent structural quality; however, sufficient literature describing small-molecule inhibition was not available.
-C. E6 is a well-established oncogenic protein with several reported inhibitory compounds, making it the most suitable target for docking studies.
+1. L1 is primarily a vaccine target because it is the major capsid protein with important antigenic determinants.
+2. E2 showed excellent structural quality; however, sufficient literature describing small-molecule inhibition was not available.
+3. E6 is a well-established oncogenic protein with several reported inhibitory compounds, making it the most suitable target for docking studies.
 
 Therefore, HPV16 E6 was selected for downstream molecular docking.
 
@@ -187,12 +187,82 @@ A compound with excellent docking affinity may still fail as a drug if it has po
 
 **Toxicity ranking**
 
-Sulindac
-       <
-Imiquimod
-        <
+Sulindac > Imiquimod > NDGA > Indole-3-Carbinol
+Toxicity ranking (Highest → Lowest)
+
+# Binding Pocket Prediction
+
+CASTpFold 3.0 was used to identify the binding pocket of the HPV16 E6 protein before docking.
+
+**Why is binding pocket prediction important?**
+
+Blind docking searches the entire protein surface, which can identify unrealistic binding locations. Predicting the active binding pocket first allows docking to focus on biologically relevant regions, improving the reliability of predicted interactions.
+
+Conversely, even a highly effective ligand can produce a poor docking score if docking is performed in an incorrect grid or binding region instead of the true active pocket.
+
+Pocket prediction therefore helps:
+1. Identify active site residues
+2. Estimate pocket area and volume
+3. Guide docking towards functional regions
+4. Improve interpretation of docking results
+
+# Molecular Docking Results
+
+| Compound          | Category  | Binding Affinity (kcal/mol) |
+| ----------------- | --------- | --------------------------: |
+| NDGA              | Natural   |                  **−8.318** |
+| Sulindac          | Synthetic |                  **−8.082** |
+| Imiquimod         | Synthetic |                  **−7.691** |
+| Indole-3-Carbinol | Natural   |                  **−6.143** |
+
+**Binding affinity ranking**
+
 NDGA
-        <
+    >
+Sulindac
+    >
+Imiquimod
+    >
 Indole-3-Carbinol
 
-Highest toxicity < Lowest toxicity
+# Key Findings
+
+1. Homology modelling identified E2, E6, and L1 as the highest-quality structural models.
+2. E6 was selected as the drug target based on both structural quality and available literature.
+3. NDGA exhibited the strongest binding affinity.
+4. Sulindac showed strong binding but the highest predicted toxicity.
+5. Indole-3-Carbinol displayed the weakest docking score but the lowest predicted toxicity.
+6. Drug selection should consider docking affinity together with toxicity and pharmacokinetic properties rather than binding energy alone.
+
+# Discussion
+
+This study demonstrates a complete computational workflow from viral genome analysis to structure-based drug discovery. Comparative genomics confirmed the conservation of major HPV16 proteins, while homology modelling identified E2, E6, and L1 as structurally reliable proteins for downstream applications.
+
+Among these, E6 was selected because of its central role in HPV-associated carcinogenesis and the availability of reported inhibitory compounds. ADMET prediction complemented molecular docking by highlighting that binding affinity alone does not determine therapeutic potential. Although Sulindac showed strong binding, its higher predicted toxicity reduced its overall suitability. NDGA achieved the best balance between docking performance and predicted safety, whereas Indole-3-Carbinol demonstrated the most favorable toxicity profile despite lower binding affinity.
+
+Overall, the integrated workflow suggests that NDGA represents the most promising computational lead against the HPV16 E6 protein and emphasizes the importance of combining structural modelling, binding pocket prediction, docking, and ADMET evaluation during early-stage drug discovery.
+
+# Future Scope
+
+1. Molecular dynamics simulation
+2. MM-PBSA free energy calculation
+3. Experimental validation
+4. Structure optimization of lead compounds
+5. Design of improved E6 inhibitors
+
+# Acknowledgement
+
+I sincerely express my heartfelt gratitude to **Dr. Diptendu Sarkar Sir**, Assistant Professor and Head, Department of Microbiology, Ramakrishna Mission Vidyamandira, Belur, and State President (West Bengal), Microbiology Society, India (MBSI), for his valuable guidance and mentorship throughout this internship.
+
+Dr. Sarkar Sir demonstrated the complete bioinformatics workflow using relevant tools and web servers with an example viral dataset, providing a clear understanding of each analysis step. He then encouraged independent project-based learning by allowing us to choose a virus of our interest and perform the entire workflow ourselves. Based on this opportunity, I selected **Human Papillomavirus type 16 (HPV16)** and independently carried out the complete computational analysis, from genome characterization to molecular docking and result interpretation.
+
+I am sincerely thankful to Dr. Sarkar Sir for his continuous support, encouragement, and for providing an excellent learning environment that strengthened my practical skills in bioinformatics and computational biology.
+
+# References
+
+1.	Jensen, J. E., Becker, G. L., Jackson, J. B., & Rysavy, M. B. (2024). Human Papillomavirus and Associated Cancers: A Review. Viruses, 16(5), 680. https://doi.org/10.3390/v16050680
+2.	Han, F., Guo, X. Y., Jiang, M. X., Xia, N. S., Gu, Y., & Li, S. W. (2024). Structural biology of the human papillomavirus. Structure (London, England : 1993), 32(11), 1877–1892. https://doi.org/10.1016/j.str.2024.09.011
+3.	Nelson, C. W., & Mirabello, L. (2023). Human papillomavirus genomics: Understanding carcinogenicity. Tumour virus research, 15, 200258. https://doi.org/10.1016/j.tvr.2023.200258
+4.	Oyouni A. A. A. (2023). Human papillomavirus in cancer: Infection, disease transmission, and progress in vaccines. Journal of infection and public health, 16(4), 626–631. https://doi.org/10.1016/j.jiph.2023.02.014
+5.	Khamjan, N. A., Beigh, S., Algaissi, A., Megha, K., Lohani, M., Darraj, M., Kamli, N., Madkhali, F., & Dar, S. A. (2023). Natural and synthetic drugs and formulations for intravaginal HPV clearance. Journal of infection and public health, 16(9), 1471–1480. https://doi.org/10.1016/j.jiph.2023.06.016
+
