@@ -189,6 +189,7 @@ A compound with excellent docking affinity may still fail as a drug if it has po
 **Toxicity ranking**
 
 Sulindac > Imiquimod > NDGA > Indole-3-Carbinol
+
 Toxicity ranking (Highest → Lowest)
 
 # Binding Pocket Prediction
@@ -216,7 +217,7 @@ Pocket prediction therefore helps:
 | Imiquimod         | Synthetic |                  **−7.691** |
 | Indole-3-Carbinol | Natural   |                  **−6.143** |
 
-**Binding affinity ranking**
+**Binding affinity ranking (Highest → Lowest)**
 
 NDGA
     >
