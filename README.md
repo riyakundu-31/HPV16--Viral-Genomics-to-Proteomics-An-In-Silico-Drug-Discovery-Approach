@@ -67,4 +67,23 @@ The workflow also demonstrates how genome-scale analysis can guide target select
             →
 [Potential HPV16 Protein Inhibitor Identification]
 
-       
+  # Bioinformatics Tools Used     
+
+| Step                | Tool / Server            | Purpose                          |
+| ------------------- | ------------------------ | -------------------------------- |
+| Genome Retrieval    | NCBI                     | HPV16 genome                     |
+| ORF Prediction      | ORF Finder               | Detect coding regions            |
+| Gene Prediction     | GeneMark                 | Predict viral genes              |
+| Genome Mapping      | PlasMapper               | Circular genome map              |
+| Genome Annotation   | Proksee                  | Genome visualization             |
+| Similarity Search   | BLASTn                   | Genome comparison                |
+| Protein Similarity  | BLASTp                   | Protein comparison               |
+| Sequence Alignment  | Clustal Omega            | Conserved region analysis        |
+| Protein Properties  | ProtParam                | Physicochemical characterization |
+| Homology Modelling  | SWISS-MODEL              | 3D protein modelling             |
+| Ligand Retrieval    | PubChem                  | Ligand structures                |
+| ADMET Prediction    | ADMET-AI                 | Drug-likeness and toxicity       |
+| Pocket Prediction   | CASTpFold 3.0            | Active site identification       |
+| Protein Preparation | ChimeraX                 | Remove HETATM and water          |
+| Docking             | SwissDock                | Protein–ligand docking           |
+| Visualization       | PyMOL / Discovery Studio | Interaction analysis             |
