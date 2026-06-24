@@ -74,7 +74,7 @@ The workflow also demonstrates how genome-scale analysis can guide target select
 | Genome Retrieval | [NCBI Database](https://www.ncbi.nlm.nih.gov/) | HPV16 genome retrieval |
 | ORF Prediction | [NCBI ORF Finder](https://www.ncbi.nlm.nih.gov/orffinder/) | Detect coding regions |
 | Gene Prediction | [GeneMark](http://exon.gatech.edu/GeneMark/) | Predict viral genes |
-| Genome Mapping | PlasMapper | Circular genome map |
+| Genome Mapping | [PlasMapper 3.0](https://plasmapper.wishartlab.com/) | Circular genome map |
 | Genome Annotation | [Proksee](https://proksee.ca/) | Genome visualization and annotation |
 | HPV Reference Database | [PaVE Database](https://pave.niaid.nih.gov/) | Papillomavirus reference sequences |
 | Similarity Search | [NCBI BLASTn](https://blast.ncbi.nlm.nih.gov/Blast.cgi) | Genome comparison |
