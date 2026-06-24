@@ -25,41 +25,46 @@ The workflow also demonstrates how genome-scale analysis can guide target select
 
 # Complete Workflow
 
-HPV16 Genome Retrieval
-        ↓
-ORF Prediction
-        ↓
-Gene Prediction
-        ↓
-Genome Mapping and Annotation
-        ↓
-BLAST Analysis
-        ↓
-Multiple Sequence Alignment
-        ↓
-Conserved Region Analysis
-        ↓
-ProtParam Analysis
-        ↓
-Homology Modelling of HPV16 Proteins
-        ↓
-Target Selection (E6)
-        ↓
-Ligand Selection
-        ↓
-ADMET Prediction
-        ↓
-Binding Pocket Prediction
-        ↓
-Protein and Ligand Preparation
-        ↓
-SwissDock Molecular Docking
-        ↓
-Interaction Visualization
-        ↓
-Comparative Analysis
-        ↓
-Potential HPV16 E6 Inhibitor Identification
-       
+[HPV16 Genome Retrieval]
+            →
+[ORF Prediction]
+            →
+[Gene Prediction]
+            →
+[Genome Mapping]
+            →
+[Genome Annotation]
+            →
+[Genome Similarity Analysis]
+            →
+[Protein Similarity Analysis]
+            →
+[Multiple Sequence Alignment]
+            →
+[Conserved Region Analysis]
+            →
+[ProtParam Analysis]
+            →
+[Homology Modelling]
+            →
+[Target Selection]
+            →
+[Ligand Selection]
+            →
+[ADMET Prediction]
+            →
+[Binding Pocket Prediction]
+            →
+[Protein Preparation]
+            →
+[Ligand Preparation]
+            →
+[SwissDock Molecular Docking]
+            →
+[Interaction Visualization]
+            →
+[Comparative Analysis]
+            →
+[Potential HPV16 Protein Inhibitor Identification]
 
        
