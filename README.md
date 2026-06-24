@@ -23,7 +23,7 @@ The workflow also demonstrates how genome-scale analysis can guide target select
 9. Compare natural and synthetic compounds using docking and ADMET analysis
 10. Identify potential HPV16 viral protein inhibitors
 
-# Complete Workflow
+# Workflow
 
 [HPV16 Genome Retrieval]
             →
@@ -85,5 +85,38 @@ The workflow also demonstrates how genome-scale analysis can guide target select
 | ADMET Prediction    | ADMET-AI                 | Drug-likeness and toxicity       |
 | Pocket Prediction   | CASTpFold 3.0            | Active site identification       |
 | Protein Preparation | ChimeraX                 | Remove HETATM and water          |
-| Docking             | SwissDock                | Protein–ligand docking           |
+| Docking             | SwissDock                | Protein-ligand docking           |
 | Visualization       | PyMOL / Discovery Studio | Interaction analysis             |
+
+# Genome Analysis
+
+The complete HPV16 genome was retrieved and analysed to identify coding regions and gene organization.
+
+The analysis included:
+1. ORF prediction
+2. Gene prediction
+3. Genome annotation
+4. Circular genome visualization
+5. Sequence similarity analysis
+6. Conserved region identification
+
+These analyses confirmed the organization of the major HPV proteins:
+a. E1
+b. E2
+c. E4
+d. E5
+e. E6
+f. E7
+g. L1
+h. L2
+
+# Comparative Sequence Analysis
+
+Genome and protein similarity analyses were performed using BLAST followed by multiple sequence alignment.
+The analyses showed:
+1. High sequence similarity with HPV16 isolates
+2. Conserved nucleotide regions
+3. Conserved amino acid residues
+4. Variable mutation regions
+5. Strong protein homology
+These findings indicate that most functional regions of HPV16 remain highly conserved.
